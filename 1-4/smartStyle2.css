@@ -33,7 +33,7 @@
   }
 
   .footer {
-    margin-top: 400px;
+    margin-top: 200px;
   }
 
   .main {
@@ -48,6 +48,14 @@
     float: none;
     width: 150px;
   }
+
+  .one,
+  .two,
+  .four,
+  .five {
+  height: 100px;
+  }
+
 
 .wrapper {
   /* width: 150px; */
