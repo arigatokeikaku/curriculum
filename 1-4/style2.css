@@ -1,0 +1,78 @@
+.main {
+    height: 250px;
+}
+
+
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+.one {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+
+}
+
+.two {
+    float: right;
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+
+}
+
+.three {
+    float: left;
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+
+}
+
+.four {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+
+}
+
+
+
+.five {
+    float: left;
+    width: 250px;
+    height: 100px;
+    text-align: right;
+    background-color: #8c2727;
+}
+
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}

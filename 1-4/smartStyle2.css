@@ -1,0 +1,55 @@
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 300px;
+  }
+
+  .one {
+    width: 100px;
+  }
+
+  .two {
+    width: 75px;
+  }
+
+  .three,
+  .four {
+    width: 125px;
+  }
+
+  .five {
+    width: 200px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 479px) {
+
+  .header,
+  .footer {
+    width: 100%;
+  }
+
+  .footer {
+    margin-top: 400px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five {
+    float: none;
+    width: 100%;
+  }
+
+
+
+
+}
