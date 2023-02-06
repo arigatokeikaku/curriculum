@@ -29,7 +29,7 @@
 
   .header,
   .footer {
-    width: 100%;
+    width: 150px;
   }
 
   .footer {
@@ -37,7 +37,7 @@
   }
 
   .main {
-    width: 100%;
+    width: 150px;
   }
 
   .one,
@@ -46,10 +46,13 @@
   .four,
   .five {
     float: none;
-    width: 100%;
+    width: 150px;
   }
 
-
+.wrapper {
+  /* width: 150px; */
+  margin: 0 auto;
+}
 
 
 }
