@@ -1,0 +1,79 @@
+@media screen and (max-width: 479px) {
+
+   .header {
+      width: 200px;
+      height: auto;
+
+   }
+
+   .left,
+   .right {
+      float: none;
+      width: 200px;
+   }
+
+   .right {
+      position: absolute;
+   }
+
+
+   .pinkbox:first-child {
+
+      padding-top: 20px;
+
+   }
+
+   .pinkbox:last-child {
+
+      padding-bottom: 20px;
+
+   }
+
+
+   .pb1,
+   .pb2,
+   .pb3 {
+      float: none;
+      margin-top: 0px;
+   }
+
+   .pb1 {
+      margin-left: auto;
+      margin-right: 70px;
+   }
+
+   .pb2 {
+      margin-left: auto;
+      margin-right: 70px;
+
+   }
+
+
+   .pb3 {
+      margin-left: auto;
+      margin-right: 70px;
+
+   }
+
+
+   .ob1,
+   .ob2,
+   .ob3 {
+      margin-top: 20px;
+      margin-left: 30px;
+      margin-right: auto;
+   }
+
+
+   .footer {
+      margin-top: 250px;
+      width: 200px;
+   }
+
+   .wrapper {
+      margin: 0 auto;
+   }
+
+
+
+}
