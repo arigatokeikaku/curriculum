@@ -20,16 +20,22 @@
     width: 150px;
    }
 
+   
+   .footer {
+    width: 150px;
+}
+
+ .main {
+    width: 150px;
+ }
+
     .left {
-        float: none;
+       float: none;
+        width: 150px;
     }
 
     .right {
         float: none;
-        width: 150px;
-    }
-
-    .footer {
         width: 150px;
     }
 
