@@ -41,19 +41,37 @@ margin-top: 100px;
 .whitebox {
 background-color: #fff;
 height: 60px;;
-width: 180px;
+width: 160px;
 margin: 20px 20px 20px auto;
 }
 
-.pb1,
-.pb2,
+
+.pb1 {
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color: #a9004b;
+    margin: 10px 10px 10px 5px;
+}
+
+
+.pb2 {
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color: #a9004b;
+    margin: 10px 5px 10px 5px;
+}
+
 .pb3 {
     width: 40px;
     height: 40px;
     float: right;
     background-color: #a9004b;
-    margin: 10px;
+    margin: 10px 5px 10px 10px ;
 }
+
+
 
 
 .ob1,

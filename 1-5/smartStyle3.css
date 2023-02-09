@@ -2,58 +2,71 @@
 
    .header {
       width: 200px;
-      height: auto;
+      height: 200px;
 
    }
 
-   .left,
-   .right {
-      float: none;
+   .whitebox {
+      width: 60px;
+      height: 160px;
+      margin-right: 70px;
+      padding-top: 1px;
+   }
+
+   .left {
       width: 200px;
+      float: none;
+      height: 100px;
+      margin-top: 200px;
+      margin: initial;
+      position: absolute;
+      margin-top: 200px;
    }
 
    .right {
       position: absolute;
+      width: 200px;
+      float: none;
+      margin: initial;
+      margin-top: 300px;
    }
 
 
-   .pinkbox:first-child {
+   /* .whitebox:first-child {
 
       padding-top: 20px;
 
    }
 
-   .pinkbox:last-child {
+   .whitebox:last-child {
 
       padding-bottom: 20px;
 
    }
-
+ */
 
    .pb1,
    .pb2,
    .pb3 {
       float: none;
-      margin-top: 0px;
+      margin: 10px;
    }
 
-   .pb1 {
-      margin-left: auto;
-      margin-right: 70px;
+   /* .pb1 {
+      margin: 10px 10px 5px 10px;      
+      float: none;
    }
 
    .pb2 {
-      margin-left: auto;
-      margin-right: 70px;
-
+      margin: 5px 10px 5px 10px ;
+      float: none;
    }
 
 
    .pb3 {
-      margin-left: auto;
-      margin-right: 70px;
-
-   }
+      margin: 5px 10px 10px 10px;
+      float: none;
+   } */
 
 
    .ob1,
@@ -66,7 +79,7 @@
 
 
    .footer {
-      margin-top: 250px;
+      margin-top: 300px;
       width: 200px;
    }
 
